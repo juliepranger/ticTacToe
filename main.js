@@ -1,39 +1,33 @@
-/*var userChoice = prompt("Are you ready to play?") */
+// START BUTTON -- make button disappear upon clicking it, reappear when game is reset.
 
 
 
-function navCells() {
-	alert("Got to navCells");
-	for(r=1;r<=3;++r)
-		for(c=1;c<=3;++c)
-			alert(document.getElementById("c"+c+"_"+"r"+r).innerHTML);
-}
+// Will User be X or O? 
+/*function start(){
+	alert("js works")
+} */
 
-alert("Test for Cell Array")
-var cellArray = [["","",""],["","",""],["","",""]];{
-	for(r=0;r<=2;++r)
-		for(c=0;c<=2;++c)
-			cellArray[r][c] =
-				document.getElementById("c"+(c+1)+"_"+"r"+(r+1)).innerHTML
-}
+var myTurn = 0
+var mySymbols = ""
 
-for(x=0; x<=2; ++x)
-	if(cellArray[0][x] == cellArray[1][x] && 
-		cellArray[1][x] == cellArray[2][x] &&
-		cellArray[0][x] != '')
-		alert(cellArray[0][x] + " won in column " + x)
-	if(cellArray[x][0] == cellArray[x][1] && 
-		cellArray[x][1] == cellArray[x][2] &&
-		cellArray[x][0] != '')
-		alert(cellArray[x][0] + " won in column " + x)
+function Click() {
 
-function clickBox() {
-	document.getElementById("c"+c+"_"+"r"+r).onclick
-		console.log("X");
+	if(myTurn == 0)
+		mySymbols =  "X";
+	else 
+		mySymbols = "O";
+	
+	event.target.innerHTML = mySymbols	
+	
+	if(myTurn == 0)
+		myTurn = 1
+	else 
+		myTurn = 0;
 	} 
-/*
-function newGameButton () {
-		var btn = document.getElementById('newgame');
-		if(document.getElementById('newgame').onclick)
-			document.reset
-	} */
+
+// How do I determine who the winner is? How can I ensure Xs and Os are not overridden?
+
+
+
+
+// Popup button -- "You win!" or "You lose!" ; include "Play Again" button which will reset the game board.
