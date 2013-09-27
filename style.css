@@ -1,0 +1,134 @@
+html {
+	background-color: #CBF0F2;
+}
+
+header{
+	height: 90px;
+	padding-bottom: 20px;
+	background-color: #CBF0F2;
+}
+
+h1 {
+	color: #42A5B3;
+	font-family: 'Life Savers', cursive;
+	font-size: 50px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #CBF0F2;
+}
+
+div {
+	font-family: 'Life Savers', cursive;
+	background-color: #CBF0F2;
+}
+
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+	width: 304px;
+	height: auto;
+	padding-top: 50px;
+	color: #42A5B3;
+	font-family: 'Life Savers', cursive;
+	background-color: #CBF0F2;
+}
+	
+.column {
+	/*display: inline-block;*/
+	float: left;
+}
+
+#c1_r1 {
+	border-right: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+div div div div {
+	width: 100px;
+	height: 100px;
+}
+
+#c2_r1 {
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c3_r1 {
+	border-bottom: 2px solid #42A5B3;
+	border-left: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c1_r2 {
+	border-bottom: 2px solid #42A5B3;
+	border-right: 2px solid #42A5B3;
+	border-top: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c2_r2 {
+	border-top: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c3_r2 {
+	border-left: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c1_r3 {
+	border-right: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c2_r3 {
+	border-top: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+
+#c3_r3 {
+	border-top: 2px solid #42A5B3;
+	border-left: 2px solid #42A5B3;
+	height: 95px;
+	width: 95px;
+	background-color: #CBF0F2;
+}
+footer {
+	margin: 0 auto;
+	float: center;
+	width: 90px;
+	padding-top: 50px;
+}
+
+input {
+	background-color: #0FA1A8;
+	font-family: 'Life-Savers', cursive;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 5px;
+
+}
