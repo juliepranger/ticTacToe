@@ -31,7 +31,7 @@
 	<h1>Tic-Tac-Toe</h1>
 </header>
 
-<body onload="start();">
+<body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -44,25 +44,25 @@
 </script> --> 
 
 	<div class="container">
-		<div onclick="Click()">
+		<div class="sqr" onclick="Click()">
 			<div class="column">
-				<div id="c1_r1"></div>
-				<div id="c1_r2"></div>
-				<div id="c1_r3"></div>
+				<div class="sqr" id="c1_r1"></div>
+				<div class="sqr" id="c1_r2"></div>
+				<div class="sqr" id="c1_r3"></div>
 			</div>
 			<div class="column">
-				<div id="c2_r1"></div>
-				<div id="c2_r2"></div>
-				<div id="c2_r3"></div>
+				<div class="sqr" id="c2_r1"></div>
+				<div class="sqr" id="c2_r2"></div>
+				<div class="sqr" id="c2_r3"></div>
 			</div>
 			<div class="column">
-				<div id="c3_r1"></div>
-				<div id="c3_r2"></div>
-				<div id="c3_r3"></div>
+				<div class="sqr" id="c3_r1"></div>
+				<div class="sqr" id="c3_r2"></div>
+				<div class="sqr" id="c3_r3"></div>
 			</div>
 		</div>
 		<div>
-			<input type="button" id="begingame" value="Start" onclick="Button()">
+			<input type="button" id="begingame" value="Start" onclick="startGame()">
 		</div>
 		<div class="clearfix"></div>
 	</div>
