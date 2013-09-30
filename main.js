@@ -1,6 +1,8 @@
 // START BUTTON -- make button disappear upon clicking it, reappear when game is reset.
 
-
+window.onload = function() {
+	console.log("loaded");
+}
 
 // Will User be X or O? 
 
@@ -45,6 +47,12 @@ function startGame() {
 	document.getElementById('begingame').style.top = "-10000px";
 }
 
+function whoWins() {
+	var winner
+	var loser
+
+	
+}
 // How do I determine who the winner is? How can I ensure Xs and Os are not overridden?
 
 
