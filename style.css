@@ -10,7 +10,7 @@ header{
 
 h1 {
 	color: #42A5B3;
-	font-family: 'Life Savers', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 50px;
 	text-align: center;
 	margin: 0 auto;
@@ -18,12 +18,12 @@ h1 {
 }
 
 div {
-	font-family: 'Life Savers', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 40px;
 	background-color: #CBF0F2;
 }
 
-#begingame {
+div #begingame {
 	position: relative;
 	margin: 0 auto;
 	height: 150px;
@@ -36,6 +36,7 @@ div {
 	moz-border-radius: 15px;
   	-webkit-border-radius: 15px;
 }
+
 
 .clearfix:after {
   content: " "; /* Older browser do not support empty content */
@@ -52,7 +53,7 @@ div {
 	height: 300px;
 	padding-top: 20px;
 	color: #42A5B3;
-	font-family: 'Life Savers', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	background-color: #CBF0F2;
 }
 	
@@ -140,7 +141,7 @@ footer {
 
 input {
 	background-color: #0FA1A8;
-	font-family: 'Life-Savers', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	font: 20px;
 	color: #FFFFFF;
 	margin: 5px;
