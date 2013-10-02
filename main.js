@@ -1,8 +1,8 @@
 
-window.onload = function () {
+/*window.onload = function () {
 	console.log("loaded");
 
-}
+} */
 function startGame() {
 	document.getElementById("begingame").style.top = "-10000px";
 }
@@ -53,52 +53,43 @@ var id = []
 	id.push(document.getElementById("c3_r3").innerHTML) 
 
 // Who is the winner? horizontal wins only
-	if(id[0] == id[1] && id[1] == id[2]) {
+	if((id[0] == id[1] && id[1] == id[2]) && id[0] != "") {
 		alert("You win! Play again?");
 	}
-	if(myTurn == 0 && (event.target.innerHTML == id[0] || id[1] || id[2])) {
 
-		//((myTurn == 0) && (id[0] == id[1] == id[2] || id[3] == id[4] == id[5] || id[6] == id[7] == id[8])) {
-		//}
+	//if(myTurn == 0 && (event.target.innerHTML == id[0] || id[1] || id[2])) {
+
+	//((myTurn == 0) && (id[0] == id[1] == id[2] || id[3] == id[4] == id[5] || id[6] == id[7] == id[8])) {
+	//}
+
+	if((id[3] == id[4] && id[4] == id[5]) && id[3] != "") {
+		alert("You win! Play again?");
+	}
+
+	if((id[6] == id[7] && id[7] == id[8]) && id[6] !="") {
+		alert("You win! Play again?");
+	}
+//vertical wins
+	
+	if((id[0] == id[3] && id[3] == id[6]) && id[0] !="") {
+		alert("You win! Play again?");
+	}
+
+	if((id[1] == id[4] && id[4] == id[7]) && id[1] !="") {
+	 	alert("You win! Play again?");
+	 }
+
+	if((id[2] == id[5] && id[5] == id[8]) && id[2] !="") {
+	 	alert("You win! Play again?");
+	}
+//diagonal wins
+	if((id[0] == id[4] && id[4] == id[8]) && id[0] !="") {
+		alert("You win! Play again?");
+	}
+	if((id[2] == id[4] && id[4] == id[6]) && id[2] !="") {
+		alert("You win! Play again?");
+	}
 } 
-
-}
-
-
-/*
-function whoWins() {
-	
-	event.target.document.getElementByClassName("sqr").innerHTML
-	var sqr = ["c1_r1", "c2_r1", "c3_r1", "c1_r2", "c2_r2", "c3_r2", "c1_r3", "c2_r3", "c3_r3"]
-	
-
-	if(myTurn == 0 && sqr[0] == sqr[3] == sqr[6] ||
-		myTurn == 0 && sqr[1] == sqr[4] == sqr[7] ||
-		myTurn == 0 && sqr[2] == sqr[5] == sqr[8] ||
-		myTurn == 0 && sqr[0] == sqr[1] == sqr[2] ||
-		myTurn == 0 && sqr[1] == sqr[4] == sqr[5] ||
-		myTurn == 0 && sqr[2] == sqr[4] == sqr[6]) {
-		alert("You win! Play again?");
-	}
-	else if(myTurn == 1 && sqr[0] == sqr[3] == sqr[6] ||
-		myTurn == 1 && sqr[1] == sqr[4] == sqr[7] ||
-		myTurn == 1 && sqr[2] == sqr[5] == sqr[8] ||
-		myTurn == 1 && sqr[0] == sqr[1] == sqr[2] ||
-		myTurn == 1 && sqr[1] == sqr[4] == sqr[5] ||
-		myTurn == 1 && sqr[2] == sqr[4] == sqr[6]) {
-		alert("You lose! Try again?");
-	}
-	else(myTurn == 0 || myTurn == 1 &&
-		sqr[0] != sqr[3] != sqr[6] ||
-		sqr[1] != sqr[4] != sqr[7] ||
-		sqr[2] != sqr[5] != sqr[8] ||
-		sqr[0] != sqr[1] != sqr[2] ||
-		sqr[1] != sqr[4] != sqr[5] ||
-		sqr[2] != sqr[4] != sqr[6]) 
-		alert("Cats Game! Play again?");
-	
-}
-*/
 
 
 
