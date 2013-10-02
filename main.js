@@ -57,11 +57,6 @@ var id = []
 		alert("You win! Play again?");
 	}
 
-	//if(myTurn == 0 && (event.target.innerHTML == id[0] || id[1] || id[2])) {
-
-	//((myTurn == 0) && (id[0] == id[1] == id[2] || id[3] == id[4] == id[5] || id[6] == id[7] == id[8])) {
-	//}
-
 	if((id[3] == id[4] && id[4] == id[5]) && id[3] != "") {
 		alert("You win! Play again?");
 	}
@@ -91,6 +86,21 @@ var id = []
 	}
 } 
 
+//RESET button will clear the board 
+
+function reset() {
+
+	document.getElementById("c1_r1").innerHTML = ""
+	document.getElementById("c2_r1").innerHTML = ""
+	document.getElementById("c3_r1").innerHTML = ""
+	document.getElementById("c1_r2").innerHTML = ""
+	document.getElementById("c2_r2").innerHTML = ""
+	document.getElementById("c3_r2").innerHTML = ""
+	document.getElementById("c1_r3").innerHTML = ""
+	document.getElementById("c2_r3").innerHTML = ""
+	document.getElementById("c3_r3").innerHTML = "" 
+
+}
 
 
 // Popup button -- "You win!" or "You lose!" ; include "Play Again" button which will reset the game board.
