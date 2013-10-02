@@ -11,7 +11,7 @@ header{
 h1 {
 	color: #42A5B3;
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
 	margin: 0 auto;
 	background-color: #CBF0F2;
@@ -51,7 +51,7 @@ div #begingame {
 	margin: 0 auto;
 	width: 304px;
 	height: 300px;
-	padding-top: 20px;
+	padding-top: 30px;
 	color: #42A5B3;
 	font-family: 'Julius Sans One', sans-serif;
 	background-color: #CBF0F2;
@@ -67,6 +67,7 @@ div #begingame {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 div div div div {
@@ -78,6 +79,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c3_r1 {
@@ -86,6 +88,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c1_r2 {
@@ -95,6 +98,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c2_r2 {
@@ -102,6 +106,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c3_r2 {
@@ -109,6 +114,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c1_r3 {
@@ -116,6 +122,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c2_r3 {
@@ -123,6 +130,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 
 #c3_r3 {
@@ -131,6 +139,7 @@ div div div div {
 	height: 95px;
 	width: 95px;
 	background-color: #CBF0F2;
+	font-size: 80px;
 }
 footer {
 	margin: 0 auto;
