@@ -28,15 +28,30 @@ div #begingame {
 	margin: 0 auto;
 	height: 150px;
 	width: 60%;
-	font: #FFFFFF;
+	font: white;
 	z-index: 1;
-	bottom: 220px;
+	bottom: 320px;
 	left: -5px;
 	opacity: 0.6;
 	moz-border-radius: 15px;
   	-webkit-border-radius: 15px;
 }
 
+div #gameEnd {
+	position: relative;
+	top: 0px;
+	margin: 0 auto;
+	height: 100px;
+	width: 90%;
+	font: white;
+	background-color: #EB5963;
+	z-index: 1;
+	top: -10000px;
+	left: -5px;
+	opacity: 1;
+	moz-border-radius: 15px;
+  	-webkit-border-radius: 15px;
+}
 
 .clearfix:after {
   content: " "; /* Older browser do not support empty content */
