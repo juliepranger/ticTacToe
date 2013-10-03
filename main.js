@@ -7,6 +7,15 @@ function startGame() {
 	document.getElementById("begingame").style.top = "-10000px";
 }
 
+function gameEnd() {
+	document.getElementById("gameEnd").style.top = "-195px";
+}
+
+function playAgain() {
+	document.getElementById("gameEnd").style.top = "-10000px";
+	reset()
+}
+
 // Will User be X or O? 
 
 /*function start(){
@@ -54,35 +63,35 @@ var id = []
 
 // Who is the winner? horizontal wins only
 	if((id[0] == id[1] && id[1] == id[2]) && id[0] != "") {
-		alert("You win! Play again?");
+		gameEnd();
 	}
 
 	if((id[3] == id[4] && id[4] == id[5]) && id[3] != "") {
-		alert("You win! Play again?");
+		gameEnd();
 	}
 
 	if((id[6] == id[7] && id[7] == id[8]) && id[6] !="") {
-		alert("You win! Play again?");
+		gameEnd();
 	}
 //vertical wins
 	
 	if((id[0] == id[3] && id[3] == id[6]) && id[0] !="") {
-		alert("You win! Play again?");
+		playAgain();
 	}
 
 	if((id[1] == id[4] && id[4] == id[7]) && id[1] !="") {
-	 	alert("You win! Play again?");
+	 	playAgain();
 	 }
 
 	if((id[2] == id[5] && id[5] == id[8]) && id[2] !="") {
-	 	alert("You win! Play again?");
+	 	playAgain();
 	}
 //diagonal wins
 	if((id[0] == id[4] && id[4] == id[8]) && id[0] !="") {
-		alert("You win! Play again?");
+		playAgain();
 	}
 	if((id[2] == id[4] && id[4] == id[6]) && id[2] !="") {
-		alert("You win! Play again?");
+		playAgain();
 	}
 } 
 
